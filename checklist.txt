@@ -1,0 +1,7 @@
+- Thread safety
+- Circuit breaker correctness
+- Fallback safety
+- Timeout handling
+- Metrics accuracy
+- Resource leaks
+- Performance bottlenecks
