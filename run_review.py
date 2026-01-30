@@ -12,8 +12,8 @@ def read_file(path):
         return f.read()
 
 def load_prompt():
-    prompt = read_file("prompt.txt")
-    checklist = read_file("checklist.txt")
+    prompt = read_file("prompt")
+    checklist = read_file("checklist")
     return f"{prompt}\n\nChecklist:\n{checklist}"
 
 def truncate(text):
